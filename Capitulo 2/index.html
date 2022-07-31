@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Pregunta 1</h1>
+      <p>
+        Un joven muy afortunado logró ganar el primer premio de la lotería...
+        exacto, estamos hablando del pobre al que cofla le dió una mano, este
+        pobre decide hacer una fiesta para festejar que salió de la pobreza con
+        este milllonario compró una máquina que deja pasar solamente a los
+        mayores de edad, entre otras cosas...
+      </p>
+      <ul>
+        <li>- Dejar pasar solo a los mayores de edad</li>
+        <li>- La primer persona que entre despues de las 2 AM, no paga.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Solución 1:</h2>
+      <label for="Edad">
+        Edad:
+        <input
+          type="number"
+          min="1"
+          step="1"
+          placeholder="Debe ser mayor de 18"
+          value="17"
+          name="Edad"
+        />
+      </label>
+      <label for="date">
+        <input type="date" name="date" value="2022-08-09" />
+      </label>
+      <label for="time">
+        <input type="time" name="time" value="00:00" />
+      </label>
+      <button id="submit" class="btn">submit</button>
+    </div>
+    <div id="respuesta"></div>
+    <div>
+      <h1>Pregunta 2</h1>
+      <p>
+        Cofla vuelve de la comisaría exausto y por lo cansado que estaba se fue
+        a dormir...
+      </p>
+      <p>
+        Al otro día comienzan las clases del ciclo básico de la universidad
+        (porque cofla quiere ser programador y se incribió en la facultad de
+        ingeniería para estudiar desarrollo de software).
+      </p>
+      <p>
+        En su curso en total son 19 alumnos, pero surgió un problema que
+        complicó un poco a la facultad:
+      </p>
+      <p>
+        se rompió el sistema de registro de asistencias y durante los próximos
+        30 días no se podrán hacer registros de datos de ningun tipo, por ende
+        las clases no podrán comenzar hasta que esto este solucionado.
+      </p>
+
+      <ul>
+        <li>
+          - Crear mini-sistema que nos permita registrar los alumnos que estan
+          presentes (P) y ausentes (A) en clase.
+        </li>
+        <li>
+          - Pasados los 30 días mostrar la situación final de todos los alumnos
+          (Nro total de presentes y ausentes).
+        </li>
+        <li>
+          - Se puede tener un maximo de 10% de ausencias por semestre, si se
+          tienen mas aclarar que está reprobado.
+        </li>
+      </ul>
+      <label for="Nalumnos">
+        <input
+          name="Nalumnos"
+          id="Nalumnos"
+          type="number"
+          value="1"
+          max="13"
+          min="1"
+        />
+      </label>
+      <button id="GetAlumnos">Generar alumnos</button>
+    </div>
+    <div id="Respuesta_2"></div>
+
+    <div>
+      <h1>Problema 3</h1>
+      <p>
+        Cofla feliz por haber empezado las clases volvió a su casa y ya tiene
+        tarea básica de cálculo; tiene que hacer un par de ejercicios de
+        matemática que incluyen suma, resta, división y multiplicación, realizar
+        esto con una calculadora puede ser mucho mas efectivo.
+      </p>
+      <li>Crear calculadora que nos simplifique el trabajo</li>
+    <label for="Num1">
+        Numero 1:
+        <input type="number" name="num1" value="35" min="0">
+    </label>
+    <label for="num2">
+        Numero 2:
+        <input type="number" name="num2" value="7" min="1">
+    </label>
+    
+    <button id="btnSumar">Sumar</button>
+    <button id="btnRestar">Restar</button>
+    <button id="btnMultiplicar">Multiplicar</button>
+    <button id="btnDividir">Dividir</button>
+
+    </div>
+    
+    <div id="Respuesta_3"></div>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>

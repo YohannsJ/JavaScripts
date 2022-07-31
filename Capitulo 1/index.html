@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pregunta1</title>
+</head>
+
+<body>
+    <div class="Problema">
+        <h1>Pregunta 1</h1> 
+        <p>
+            3 chicos de 23 años perfectamente normales entran a una heladeria a
+            comprar un helado pero hay un problema:
+            <br> los precios no estan al lado de
+            cada estante con su respectivo helado. Ellos quieren comprar el helado
+            mas caro que puedan con la plata que tienen, así que... veamos como
+            podemos ayudarlos
+        </p>
+        <li>Roberto tiene $1.5 USD</li>
+        <li>Pedro tiene $1.7 USD</li>
+        <li>Cofla tiene $3 USD</li>
+        
+        <h4>Los precios de helados son los siguientes:</h4>
+        <ol>
+            <li>Palito de helado de agua: $0.6 USD</li>
+            <li>Palito de helado de crema: $1 USD</li>
+            <li>Bombón helado marca heladix: $1.6 USD</li>
+            
+            <li>Bombón helado marca heladovich: $ 1.7 USD</li>
+            
+            <li>Bombón helado marca helardo: $1.8 USD</li>
+            <li>Potecito de helado con confites: $2.9 USD</li>
+            <li>Pote de 1/4 KG -> $2.9 USD</li>
+        </ol>
+        
+        <h3>CREAR SOLUCIONES:</h3>
+        
+        <li>
+            - Pedirles que ingresen el monto que tienen y mostrarles el helado mas
+            caro que puedan comprar.
+        </li>
+        <li>- Si hay 2 o mas con el mismo precio, mostrar ámbos</li>
+        <li>- Cofla quiere saber cuanto es el vuelto</li>
+        <h2>Solución 1:</h2>
+    <label for="Roberto">
+        Roberto:
+        <input type="number"  required min="0" step="0.1" id= "RobertoN" name ="Roberto" placeholder="15">
+    </label>
+    
+    <label for="Pedro">
+        Pedro:
+        <input type="number"  required min="0" step="0.1" id= "PedroN" name ="Pedro">
+    </label>
+
+    <label for="Cofla">
+        Cofla:
+        <input type="number" required min="0" step="0.1" id= "CoflaN" name ="Cofla">
+    </label>
+    </div>
+    <br>
+    <button id="buton">Ingresar</button>
+
+
+    <div class="Resultado" id="Resultado"></div>
+    
+    
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
+ 

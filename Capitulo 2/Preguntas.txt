@@ -1,0 +1,28 @@
+A) Un joven muy afortunado logró ganar el primer premio de la lotería... exacto, estamos hablando del pobre al que cofla le
+dió una mano, este pobre decide hacer una fiesta para festejar que salió de la pobreza con este milllonario compró una 
+máquina que deja pasar solamente a los mayores de edad, entre otras cosas...
+
+- Dejar pasar solo a los mayores Ide edad
+- La primer persona que entre despues de las 2 AM, no paga.
+
+
+B) Cofla vuelve de la comisaría exausto y por lo cansado que estaba se fue a dormir...
+
+Al otro día comienzan las clases del ciclo básico de la universidad (porque cofla quiere ser programador y se incribió en la
+facultad de ingeniería para estudiar desarrollo de software).
+
+En su curso en total son 19 alumnos, pero surgió un problema que complicó un poco a la facultad:
+
+se rompió el sistema de registro de asistencias y durante los próximos 30 días no se podrán hacer registros de datos de
+ningun tipo, por ende las clases no podrán comenzar hasta que esto este solucionado.
+
+- Crear mini-sistema que nos permita registrar los alumnos que estan presentes (P) y ausentes (A) en clase.
+- Pasados los 30 días mostrar la situación final de todos los alumnos (Nro total de presentes y ausentes).
+- Se puede tener un maximo de 10% de ausencias por semestre, si se tienen mas aclarar que está reprobado.
+
+
+C) Cofla feliz por haber empezado las clases volvió a su casa y ya tiene tarea básica de cálculo; tiene que hacer un par de
+ejercicios de matemática que incluyen suma, resta, división y multiplicación, realizar esto con una calculadora puede ser
+mucho mas efectivo.
+
+1 - Crear calculadora que nos simplifique el trabajo
